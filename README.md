@@ -184,7 +184,7 @@ translate API in python.
 results?:
 
 Supervised  training  methods  like  Random  forest
-and Naive Bayes classification are used to classify text.
+and Naive Bayes classification are used to classify text. Currently Recurrent Neural networks are more frequent used, they are know to performing well on sequential data. 
 
 4) Can Facebook conversations be compared, using the
 the likeliness of the post as gold standard?:
@@ -216,6 +216,7 @@ to  their  post.  This  ranking  can  be  compared  to  the  ranking
 from the gold standard.
 
 V.  RISK  ASSESSMENT
+
 There  are  scenarios  for  an  unsuccessful  project.  This
 section  will  be  describe  plans  when  the  current  plan  does
 not work out.
