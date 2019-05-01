@@ -72,7 +72,11 @@ are then used as phrases. POS taggers use statistical models
 of  text  to  predict  syntactic  tags  of  words  These  tags  can
 be  used  to  find  phrases  in  textual  data.  POS  tagging  is
 too  slow  for  large  collections.  Frequent  n-grams  are  more
-likely to be meaningful phrases. Language models are used
+likely to be meaningful phrases.
+
+B. Language models
+
+Language models are used
 on  many  languages,  mainly  frequently  spoken  languages,
 and  for  many  purposes.  To  estimate  the  relative  likelihood
 of  different  phrases  is  useful  in  many  natural  language
@@ -104,7 +108,7 @@ shown that the performance of a neural network was better
 than  LSA.  LDA  can  become  computationally  expensive  on
 larger data sets [6].
 
-B. Neural networks
+C. Neural networks
 
 Neural  language  models  are  made  and  trained  as  prob-
 abilistic  classifiers  that  are  taught  to  predict  probability
@@ -210,6 +214,41 @@ scores from the comments can be compared to the scores of
 the  post.  This  results  in  a  new  ranking  for  each  comment
 to  their  post.  This  ranking  can  be  compared  to  the  ranking
 from the gold standard.
+
+V.  RISK  ASSESSMENT
+There  are  scenarios  for  an  unsuccessful  project.  This
+section  will  be  describe  plans  when  the  current  plan  does
+not work out.
+The  data  the  project  will  be  data  from  Facebook.  It  is
+possible the size of the dataset insufficient. In this scenario
+Twitter data can be used. RNW also creates discussions on
+Twitter. The structure of Twitter is slightly different, but the
+Twitter dataset consists conversations
+A gold standard based on likeness of Facebook post will
+be  used.  To  ensure  there  is  more  expert  information  in  the
+evaluation, articles written by professional writers should can
+used in the model. The titles of articles can be compared with
+each other based on a consine similarity, which is also used
+for the Facebook posts. The text (except of the title) can be
+used as train a language model.
+If  the  performance  of  LDA  for  topic  modeling  is  not
+successful,  LSA  can  be  used  or  another  topic  modeling
+method.
+
+|               | Plan          |
+| ------------- | ------------- |
+| week1         | Integration in the organization and start write easy part of report  |
+| week2         | Converting data in right format (json to csv) and data exploration  |
+| week3         | Analyzing the performances of th current system for emotion perdiction |
+| week4         | Make a scoring method based on Kaggle goldstandard for emotion prediction   |
+| week5         | Train a classification model for emotion prediction  |
+| week6         | Train a recurrent neural network  |
+| week7         | Make from from all posts a vector and calculate cosine distance between post and comment as gold standard |
+| week8         | Apply topic modeling on the data  |
+| week9         | evaluate topic modeling against thegold standard  |
+| week10        | Writing thesis  |
+| week11        | Writing thesis |
+| week12        | Thesis done  |
 
 REFERENCES
 
