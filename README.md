@@ -103,7 +103,9 @@ continuous representation of words. In previous research has
 shown that the performance of a neural network was better
 than  LSA.  LDA  can  become  computationally  expensive  on
 larger data sets [6].
+
 B. Neural networks
+
 Neural  language  models  are  made  and  trained  as  prob-
 abilistic  classifiers  that  are  taught  to  predict  probability
 distribution over an vocabulary.
@@ -195,6 +197,7 @@ comment.
 
 5) Is topic modeling a good measurement for likeness of
 post and comments?:
+
 Topic modeling is mainly used to com-
 pare document of text with each other or documents with a
 text query. Topic modeling is not used yet to compare smaller
@@ -209,38 +212,57 @@ to  their  post.  This  ranking  can  be  compared  to  the  ranking
 from the gold standard.
 
 REFERENCES
+
 [1]  https://www.rnw.org/
+
 [2]  Mikolov,  Tomas;  Chen,  Kai;  Corrado,  Greg;  Dean,  Jeffrey  (2013).
 ”Efficient estimation of word representations in vector space”
+
 [3]  http://mt-class.org/jhu/slides/lecture-nn-lm.pdf
+
 [4]  Nathanael  Chambers  and  Dan  Jurafsky,  Template-Based  Information
 Extraction without the Templates
+
 [5]  Mikolov, T., Yih, W.-T. and Zweig, G. Linguistic Regularities in Con-
 tinuous Space Word Representations. HLT-NAACL, 746-751. 2013
+
 [6]  Mikolov  T,  Sutsekever  I,  Chen  K,  Carrdo  G,  Dean  J.  Distributed
 representations   of   words   and   phrases   and   their   compositionality.
 NIPS’13 Proceedings of the 26th International Conference on Neural
 Information Processing Systems - Volume 2, pages 3111-3119
+
 [7]  Stevan   Ostrogonac,   Dragia   Mikovi,   Milan   Seujski,   Darko   Pekar
 and  Vlado  Deli.  A  Language  Model  for  Highly  Inflective  Non-
 Agglutinative Languages.
+
 [8]  James  Allan  and  Giridhar  Kumaran.  Details  on  Stemming  in  the
 Language Modeling Framework
+
 [9]  https://medium.com/greyatom/learning-pos-tagging-chunking-in-nlp-
 85f7f811a8cb
+
 [10]  Michael Collins. Tagging Problems, and Hidden Markov Models.
+
 [11]  Statistical  Language  Modeling  for  Automatic  Speech  Recognition  of
 Agglutinative Languages.
+
 [12]  Dictionairy for English-Rundi https://glosbe.com/en/rn/
+
 [13]  Charlotte Vonkeman, Kyle Snyder. Yaga Burundi.
+
 [14]  Mikolov T. Karafiat M. Burget L. Cernocky J. Khudanpur S. Recurrent
 neural network based language model.
+
 [15]  RNW media website: https://www.rnw.org/about-us/
+
 [16]  Mijit  Ablimit,  Sardar  Parh,  Askar  Hamdulla,  Thomas  Fang  Zheng.
 A  Multilingual  Language  Processing  Tool  for  Uyghur,  Kazak  and
 Kirghiz.
+
 [17]  Polyplot https://hub.packtpub.com/morphology-getting-our-feet-wet/
+
 [18]  S.  Dai,  Q.  Diao  and  C.  Zhou  Performance  comparison  of  language
 models for information retrieval.
+
 [19]  Building   an   RNN   in   Tensorflow   with   Pretrained   Word   Vectors
 http://www.brightideasinanalytics.com/rnn-pretrained-word-vector
