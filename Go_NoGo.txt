@@ -1,0 +1,8 @@
+﻿I <supervisor name, position, affiliation>, 
+hereby confirm that student <name, IS/DS track> 
+working on research topic <topic name>
+has fulfilled the mid-term progress requirements for continuation of the project. 
+I believe the student is able to finalize the thesis on time and defend it in <June/July/August>.
+<date, place>
+<signature>
+
